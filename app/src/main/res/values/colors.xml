@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#673AB7</color>
+    <color name="secondary">#4A148C</color>
+    <color name="primaryLight">#7E57C2</color>
+    <color name="accent">#AB47BC</color>
+
+    <color name="cardShadowLight">#DDDDDD</color>
+    <color name="cardShadowDark">#111111</color>
+
+    <color name="cardShadowPressedLight">#CCCCCC</color>
+    <color name="cardShadowPressedDark">#444444</color>
+
+    <color name="backgroundLight">#F7F7F7</color>
+    <color name="dialogBackgroundLight">#FFFFFF</color>
+
+    <color name="textLight">#FFFFFF</color>
+    <color name="textLightFaded">#A7A7A7</color>
+
+    <color name="backgroundDark">#303030</color>
+    <color name="dialogBackgroundDark">#424242</color>
+    <color name="textDark">#222222</color>
+    <color name="textDarkFaded">#6f6f6f</color>
+</resources>

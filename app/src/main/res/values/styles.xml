@@ -1,0 +1,159 @@
+<resources>
+
+    <!-- Backgrounds -->
+    <attr name="backgroundColour" format="reference" />
+    <attr name="backgroundCardColour" format="reference" />
+    <attr name="backgroundCardShadow" format="reference" />
+    <attr name="backgroundCardShadowPressed" format="reference" />
+
+    <!-- Colours -->
+    <attr name="textToolbar" format="reference" />
+    <attr name="textContent" format="reference" />
+    <attr name="textFaded" format="reference" />
+
+    <!-- Images -->
+    <attr name="actionOptions" format="reference" />
+    <attr name="actionPlus" format="reference" />
+    <attr name="iconSettings" format="reference" />
+    <attr name="iconTheme" format="reference" />
+    <attr name="iconSyncEnabled" format="reference" />
+    <attr name="iconSyncDisabled" format="reference" />
+    <attr name="iconNext" format="reference" />
+    <attr name="iconSearch" format="reference" />
+    <attr name="iconSort" format="reference" />
+    <attr name="iconSave" format="reference" />
+    <attr name="iconMenu" format="reference" />
+
+    <style name="Theme.Notepad.Light.LightFeature" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <!-- Colours -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/secondary</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="backgroundColour">@color/backgroundLight</item>
+        <item name="backgroundCardColour">@color/dialogBackgroundLight</item>
+        <item name="backgroundCardShadow">@color/cardShadowLight</item>
+        <item name="backgroundCardShadowPressed">@color/cardShadowPressedLight</item>
+
+        <!-- Text Colours -->
+        <item name="textToolbar">@color/textLight</item>
+        <item name="textContent">@color/textDark</item>
+        <item name="textFaded">@color/textLightFaded</item>
+
+        <!-- Images -->
+        <item name="actionOptions">@drawable/action_options_dark</item>
+        <item name="actionPlus">@drawable/action_plus_light</item>
+        <item name="iconSettings">@drawable/action_settings_dark</item>
+        <item name="iconTheme">@drawable/action_theme_dark</item>
+        <item name="iconSyncEnabled">@drawable/icon_sync_enabled_light</item>
+        <item name="iconSyncDisabled">@drawable/icon_sync_disabled_light</item>
+        <item name="iconNext">@drawable/action_next_light</item>
+        <item name="iconSearch">@drawable/action_search_light</item>
+        <item name="iconSort">@drawable/action_sort_light</item>
+        <item name="iconSave">@drawable/action_save_light</item>
+        <item name="iconMenu">@drawable/navigation_menu_light</item>
+    </style>
+
+    <style name="Theme.Notepad.Light.DarkFeature" parent="Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <!-- Colours -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/secondary</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="backgroundColour">@color/backgroundLight</item>
+        <item name="backgroundCardColour">@color/dialogBackgroundLight</item>
+        <item name="backgroundCardShadow">@color/cardShadowLight</item>
+        <item name="backgroundCardShadowPressed">@color/cardShadowPressedLight</item>
+
+        <!-- Text Colours -->
+        <item name="textToolbar">@color/textDark</item>
+        <item name="textContent">@color/textDark</item>
+        <item name="textFaded">@color/textLightFaded</item>
+
+        <!-- Images -->
+        <item name="actionOptions">@drawable/action_options_dark</item>
+        <item name="actionPlus">@drawable/action_plus_dark</item>
+        <item name="iconSettings">@drawable/action_settings_dark</item>
+        <item name="iconTheme">@drawable/action_theme_dark</item>
+        <item name="iconSyncEnabled">@drawable/icon_sync_enabled_dark</item>
+        <item name="iconSyncDisabled">@drawable/icon_sync_disabled_dark</item>
+        <item name="iconNext">@drawable/action_next_dark</item>
+        <item name="iconSearch">@drawable/action_search_dark</item>
+        <item name="iconSort">@drawable/action_sort_dark</item>
+        <item name="iconSave">@drawable/action_save_dark</item>
+        <item name="iconMenu">@drawable/navigation_menu_dark</item>
+    </style>
+
+    <style name="Theme.Notepad.Dark.LightFeature" parent="Theme.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <!-- Colours -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/secondary</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="backgroundColour">@color/backgroundDark</item>
+        <item name="backgroundCardColour">@color/dialogBackgroundDark</item>
+        <item name="backgroundCardShadow">@color/cardShadowDark</item>
+        <item name="backgroundCardShadowPressed">@color/cardShadowPressedDark</item>
+
+        <!-- Text Colours -->
+        <item name="textToolbar">@color/textLight</item>
+        <item name="textContent">@color/textLight</item>
+        <item name="textFaded">@color/textDarkFaded</item>
+
+        <!-- Images -->
+        <item name="actionOptions">@drawable/action_options_light</item>
+        <item name="actionPlus">@drawable/action_plus_light</item>
+        <item name="iconSettings">@drawable/action_settings_light</item>
+        <item name="iconTheme">@drawable/action_theme_light</item>
+        <item name="iconSyncEnabled">@drawable/icon_sync_enabled_light</item>
+        <item name="iconSyncDisabled">@drawable/icon_sync_disabled_light</item>
+        <item name="iconNext">@drawable/action_next_light</item>
+        <item name="iconSearch">@drawable/action_search_light</item>
+        <item name="iconSort">@drawable/action_sort_light</item>
+        <item name="iconSave">@drawable/action_save_light</item>
+        <item name="iconMenu">@drawable/navigation_menu_light</item>
+    </style>
+
+    <style name="Theme.Notepad.Dark.DarkFeature" parent="Theme.AppCompat">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+
+        <!-- Colours -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/secondary</item>
+        <item name="colorAccent">@color/accent</item>
+
+        <item name="backgroundColour">@color/backgroundDark</item>
+        <item name="backgroundCardColour">@color/dialogBackgroundDark</item>
+        <item name="backgroundCardShadow">@color/cardShadowDark</item>
+        <item name="backgroundCardShadowPressed">@color/cardShadowPressedDark</item>
+
+        <!-- Text Colours -->
+        <item name="textToolbar">@color/textDark</item>
+        <item name="textContent">@color/textLight</item>
+        <item name="textFaded">@color/textDarkFaded</item>
+
+        <!-- Images -->
+        <item name="actionOptions">@drawable/action_options_light</item>
+        <item name="actionPlus">@drawable/action_plus_dark</item>
+        <item name="iconSettings">@drawable/action_settings_light</item>
+        <item name="iconTheme">@drawable/action_theme_light</item>
+        <item name="iconSyncEnabled">@drawable/icon_sync_enabled_dark</item>
+        <item name="iconSyncDisabled">@drawable/icon_sync_disabled_dark</item>
+        <item name="iconNext">@drawable/action_next_dark</item>
+        <item name="iconSearch">@drawable/action_search_dark</item>
+        <item name="iconSort">@drawable/action_sort_dark</item>
+        <item name="iconSave">@drawable/action_save_dark</item>
+        <item name="iconMenu">@drawable/navigation_menu_dark</item>
+    </style>
+
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Values that can help to determine the type of device we're on -->
+    <bool name="isTablet">false</bool>
+</resources>

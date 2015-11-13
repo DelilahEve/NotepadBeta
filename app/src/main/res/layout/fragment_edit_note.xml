@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundColour" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/note_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:hint="@string/note_title"
+            android:inputType="textAutoComplete|textAutoCorrect"/>
+
+        <ImageView
+            android:id="@+id/note_options_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="12dp"
+            android:src="?attr/actionOptions"
+            android:contentDescription="@string/icon_description_options"
+            android:background="?attr/selectableItemBackground" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/note_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="start|top"
+        android:hint="@string/note_text"
+        android:inputType="textMultiLine|textAutoComplete|textAutoCorrect"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
